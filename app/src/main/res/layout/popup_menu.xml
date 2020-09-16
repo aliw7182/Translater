@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="16sp"
+        android:layout_marginLeft="12dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_icon_copy"
+
+        />
+
+    <TextView
+        android:id="@+id/copy_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@id/copy"
+        android:layout_alignTop="@id/copy"
+        android:layout_alignBottom="@id/copy"
+        android:text="Kóshіrý" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:layout_marginLeft="12dp"
+        android:layout_below="@id/copy"
+        android:src="@drawable/ic_icon_share"
+
+        />
+
+    <TextView
+        android:id="@+id/share_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/copy_text"
+        android:layout_alignBottom="@id/share"
+        android:layout_alignTop="@id/share"
+        android:gravity="center"
+        android:text="Bólіsý" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:layout_below="@id/share"
+        android:layout_alignRight="@id/share"
+        android:layout_alignLeft="@id/share"
+        android:src="@drawable/ic_vector"
+
+        />
+
+    <TextView
+        android:id="@+id/delete_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/share_text"
+        android:layout_alignBottom="@id/delete"
+        android:layout_alignTop="@id/delete"
+        android:gravity="center"
+        android:text="Óshіrý" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/addFavorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:layout_below="@id/delete"
+        android:layout_alignRight="@id/delete"
+        android:layout_alignLeft="@id/delete"
+        android:src="@drawable/ic_favorite"
+        android:background="#FFF"
+
+        />
+
+    <TextView
+        android:id="@+id/addFavorite_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/delete_text"
+        android:layout_alignBottom="@id/addFavorite"
+        android:layout_alignTop="@id/addFavorite"
+        android:gravity="center"
+        android:text="Óshіrý" />
+
+</RelativeLayout>

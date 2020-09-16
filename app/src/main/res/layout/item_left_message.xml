@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textViewLeft"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroundlf"
+    android:maxWidth="300dp"
+    android:paddingRight="7dp"
+    android:paddingLeft="7dp"
+    android:elevation="4dp"
+    android:layout_gravity="bottom"
+    android:gravity="left"
+    >
+
+</TextView>

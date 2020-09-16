@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/main_send"
+    android:icon="@drawable/ic_send"
+    android:title="Avtorǵa hat jazý"
+    app:showAsAction="never"/>
+    <item
+        android:id="@+id/main_share"
+        android:icon="@drawable/ic_icon_share"
+        android:title="Qosymshamen bólіsý"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/main_add"
+        android:icon="@drawable/ic_send_to_trash"
+        android:title="Maǵan qosymsha kerek"
+        app:showAsAction="never"/>
+</menu>

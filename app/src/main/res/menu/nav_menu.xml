@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/group"
+    android:icon="@drawable/ic_group"
+    android:title=""
+    />
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/ic_shape"
+        android:title=""
+        />
+    <item
+        android:id="@+id/perevod"
+        android:icon="@drawable/ic_group_38"
+        android:title=""
+        />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title=""
+        />
+    <item
+        android:id="@+id/user"
+        android:icon="@drawable/ic_account_1"
+        android:title=""
+        />
+
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="15dp">
+
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/messageListView"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_above="@+id/inputText"
+     android:background="@drawable/backgrounrfr"
+     android:textAlignment="textEnd"
+     />
+
+ <androidx.appcompat.widget.AppCompatImageButton
+     android:id="@+id/downBtn"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_above="@id/otpravkaBtn"
+     android:layout_alignParentRight="true"
+     android:background="@null"
+     android:visibility="gone"
+     android:src="@drawable/scroll" >
+ </androidx.appcompat.widget.AppCompatImageButton>
+ <EditText
+     android:id="@+id/inputText"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:layout_toStartOf="@+id/otpravkaBtn"
+     android:background="@null" />
+
+ <ImageButton
+     android:id="@+id/otpravkaBtn"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/ic_otpravka"
+     android:layout_below="@id/messageListView"
+     android:foregroundGravity="center_vertical"
+     android:layout_alignParentBottom="true"
+     android:layout_alignParentRight="true"
+     android:background="@null"/>
+</RelativeLayout>
